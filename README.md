@@ -1,6 +1,6 @@
 # Weather App
 
-[Live demo](https://kame-sama/github.io/weather-app/)
+[Live demo](https://kame-sama.github.io/weather-app/)
 
 ## Features
 
