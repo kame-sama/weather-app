@@ -1,11 +1,13 @@
 {
+  "name": "weather-app",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "release": "git subtree push --prefix dist origin gh-pages",
-    "lint": "eslint ./src/**",
-    "lint:fix": "eslint ./src/** --fix",
+    "lint": "eslint ./src/*.js",
+    "lint:fix": "eslint ./src/*.js --fix",
     "start": "webpack serve --open --config webpack.dev.js"
   },
   "keywords": [],
@@ -31,5 +33,8 @@
   },
   "browserslist": [
     ">0.25%, not ie 11"
-  ]
+  ],
+  "dependencies": {
+    "date-fns": "^3.0.6"
+  }
 }
